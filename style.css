@@ -1,11 +1,12 @@
-body{
+body {
   width: 375px;
   height: 587.15px;
 }
+
 .logoholder {
   order: 0;
-  
 }
+
 ul {
   list-style-type: none;
   margin: 0;
