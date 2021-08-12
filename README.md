@@ -15,6 +15,7 @@ Additional description about the project and its features.
 
 - GitHub: [@githubhandle](https://github.com/dadadon)
 - Twitter: [@twitterhandle](https://twitter.com/davianberoni)
+- LinkedIn: [@likedinhandle](https://www.linkedin.com/in/davian-beroni-502351b7/)
 
 ## Acknowledgments
 
