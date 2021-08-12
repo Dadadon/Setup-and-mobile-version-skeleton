@@ -3,6 +3,10 @@ body {
   height: 587.15px;
 }
 
+html * {
+  font-family: Poppins, sans-serif;
+}
+
 .logoholder {
   order: 0;
 }
@@ -27,7 +31,6 @@ ul {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -52,7 +55,6 @@ ul {
 }
 
 .head {
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -73,7 +75,6 @@ ul {
   margin-left: 24px;
   margin-right: 24px;
   background-color: white;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -93,7 +94,6 @@ ul {
   width: 117px;
   height: 24px;
   margin-left: 24px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
