@@ -1,11 +1,23 @@
+body{
+  width: 375px;
+  height: 587.15px;
+}
 .logoholder {
   order: 0;
-  margin-left: 24px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menuholder {
   order: 0;
   margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
 }
 
 .mylogo {
@@ -26,11 +38,13 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-left: 24px;
+  margin-top: 26px;
 }
 
 .headerholder {
   width: 327px;
-  height: auto;
+  height: 150px;
   margin-left: 24px;
   margin-top: 114px;
 }
@@ -38,13 +52,16 @@
 .head {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   order: 0;
   margin-top: auto;
   margin-bottom: auto;
+  width: 327px;
+  height: 150px;
+  position: static;
 }
 
 .headtext {
@@ -91,7 +108,7 @@
   margin-top: 10px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 375px) {
   .container {
     display: flex;
     justify-content: space-between;
@@ -101,6 +118,7 @@
     display: flex;
     flex-direction: column;
     background-image: url("header-shapesmobile.png");
-    height: 587px;
+    height: 587.15px;
+    width: 375px;
   }
 }
