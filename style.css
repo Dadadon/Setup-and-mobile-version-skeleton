@@ -14,7 +14,7 @@
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -36,13 +36,15 @@
 }
 
 .head {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   order: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .headtext {
@@ -52,7 +54,7 @@
   margin-left: 24px;
   margin-right: 24px;
   background-color: white;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -72,7 +74,7 @@
   width: 117px;
   height: 24px;
   margin-left: 24px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
