@@ -1,0 +1,146 @@
+.logoholder{
+order: 0;
+margin-left: 24px;
+
+
+}
+
+.menuholder{
+
+    order: 0;
+    margin-right: 24px;
+
+
+}
+
+.mylogo{
+    position: static;
+    width: 76px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+color: #6070FF;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.headerholder{
+    
+    width: 327px;
+    height: auto;
+    margin-left: 24px;
+    margin-top: 114px;
+    
+    
+
+}
+
+.head{
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+margin: 0px;
+
+
+align-items: left;
+
+color: #172B4D;
+
+
+
+order: 0;
+
+
+}
+.headtext{
+    
+width: 327px;
+height: auto;
+left: 24px;
+margin-left: 24px;
+margin-right: 24px;
+
+background-color: white;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #344563;
+
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.supporttext{
+    order: 2;
+}
+.suptext{
+    position: static;
+    width: 117px;
+    height: 24px;
+    margin-left: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    
+
+}
+@media all and (max-width:500px){
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container2{
+        
+        display: flex;
+        flex-direction: column;
+        background-image: url("header-shapes mobile.png");
+        height: 587px;
+    
+    }
+     
+
+}
+.social{
+    display: flex;
+    order: 3;
+    justify-content: space-between;
+    margin-left: 24px;
+    width: 170.17px;
+}
