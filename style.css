@@ -80,6 +80,14 @@
   color: #7f8cff;
 }
 
+.social {
+    display: flex;
+    order: 3;
+    justify-content: space-between;
+    margin-left: 24px;
+    width: 170.17px;
+}
+
 @media all and (max-width: 500px) {
   .container {
     display: flex;
@@ -92,12 +100,4 @@
     background-image: url("header-shapesmobile.png");
     height: 587px;
   }
-}
-
-.social {
-  display: flex;
-  order: 3;
-  justify-content: space-between;
-  margin-left: 24px;
-  width: 170.17px;
 }
