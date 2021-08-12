@@ -3,6 +3,7 @@
 > This is my portfolio Microverse project
 Additional description about the project and its features.
 
+![screenshot](.Portfolio-screenshot.PNG)
 ## Built With
 
 - html
@@ -18,3 +19,5 @@ Additional description about the project and its features.
 ## Acknowledgments
 
 - Microverse
+
+## 📝 License This project is MIT licensed. 
