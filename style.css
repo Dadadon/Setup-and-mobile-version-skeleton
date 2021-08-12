@@ -1,6 +1,6 @@
 .logoholder{
-order: 0;
-margin-left: 24px;
+    order: 0;
+    margin-left: 24px;
 
 
 }
@@ -9,8 +9,6 @@ margin-left: 24px;
 
     order: 0;
     margin-right: 24px;
-
-
 }
 
 .mylogo{
@@ -27,19 +25,19 @@ margin-left: 24px;
     line-height: 20px;
 
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 
-color: #6070FF;
+    color: #6070FF;
 
 
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
 
 .headerholder{
@@ -56,50 +54,50 @@ margin: 0px 0px;
 .head{
 
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-margin: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0px;
 
 
-align-items: left;
+    align-items: left;
 
-color: #172B4D;
+    color: #172B4D;
 
 
 
-order: 0;
+    order: 0;
 
 
 }
 .headtext{
     
-width: 327px;
-height: auto;
-left: 24px;
-margin-left: 24px;
-margin-right: 24px;
+    width: 327px;
+    height: auto;
+    left: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
 
-background-color: white;
-
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+    background-color: white;
 
 
-color: #344563;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #344563;
 
 
 
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 
 }
 
