@@ -1,6 +1,8 @@
 body {
   width: 375px;
-  height: 587.15px;
+  height: auto;
+  background: #E5E5E5;
+  margin: 0px;
 }
 
 html * {
@@ -110,10 +112,23 @@ ul {
   margin-top: 10px;
 }
 
+.card1 {
+  height: 552px;
+  width: 327px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 114px;
+  
+  border-radius: 16px;
+
+  background-color: white;
+}
+
 @media all and (max-width: 375px) {
   .container {
     display: flex;
     justify-content: space-between;
+    background-color: white;
   }
 
   .container2 {
@@ -122,5 +137,14 @@ ul {
     background-image: url("header-shapesmobile.png");
     height: 587.15px;
     width: 375px;
+    background-color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 2788px;
+    width: 375px;
+    top: 718px;
+    
   }
 }
