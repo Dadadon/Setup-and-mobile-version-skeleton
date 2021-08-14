@@ -198,7 +198,7 @@ ul {
   height: 36px;
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight:700;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -518,7 +518,7 @@ ul {
   font-size: 20px;
   line-height: 24px;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .disabled {
@@ -564,7 +564,8 @@ ul {
     display: grid;
     height: 2788px;
     width: 375px;
-    top: 718px;  
+    top: 718px;
+
   }
 
   .grid-container2 {
