@@ -3,7 +3,7 @@
 > This is my portfolio Microverse project
 Additional description about the project and its features.
 
-![screenshot](./Portfolio-screenshot.png)(./Portfolio-screenshot2.png)(./Portfolio-screenshot3.png)
+![screenshot](./Portfolio-screenshot.png)
 ## Built With
 
 - html
