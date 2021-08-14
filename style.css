@@ -198,7 +198,7 @@ ul {
   height: 36px;
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight:700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -213,10 +213,10 @@ ul {
   height: 80px;
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 0;
   margin-bottom: 0;
   order: 0;
@@ -269,12 +269,12 @@ ul {
   height: 16px;
   left: 0;
   margin-top: 20px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #79859a;
 }
 
 .p-layout {
@@ -348,12 +348,12 @@ ul {
   font-weight: 500;
 }
 
-.p-javas {  
+.p-javas {
   width: 103px;
   height: 28px;
   left: 114px;
   top: 0;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   text-align: center;
   color: #6070ff;
@@ -496,13 +496,13 @@ ul {
   margin-left: 12px;
   margin-right: 78px;
   margin-top: 60px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   align-items: center;
-  color: #000000;
+  color: #000;
   order: 0;
 }
 
@@ -512,7 +512,7 @@ ul {
   margin-left: 12px;
   margin-right: 78px;
   margin-top: 0;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -564,9 +564,9 @@ ul {
     display: grid;
     height: 2788px;
     width: 375px;
-    top: 718px; 
+    top: 718px;  
   }
-  
+
   .grid-container2 {
     display: grid;
     margin-top: 114px;
