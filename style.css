@@ -1,8 +1,8 @@
 body {
   width: 375px;
   height: auto;
-  background: #E5E5E5;
-  margin: 0px;
+  background: #e6e6e6;
+  margin: 0;
 }
 
 html * {
@@ -138,9 +138,7 @@ ul {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 114px;
-  
   border-radius: 16px;
-
   background-color: white;
 }
 
@@ -150,9 +148,7 @@ ul {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 114px;
-  
   border-radius: 16px;
-
   background-color: white;
 }
 
@@ -162,7 +158,6 @@ ul {
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
-
   background: url(SnapshootPortfolio.png);
   border-radius: 8px;
 }
@@ -173,19 +168,19 @@ ul {
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
-
   background: url(SnapshootPortfolio3.png);
   border-radius: 8px;
 }
+
 .portfolio-image3 {
   position: static;
   width: 295px;
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
-
   background: url(SnapshootPortfolio4.png);
   border-radius: 8px;
+
 }
 .portfolio-image4 {
   position: static;
@@ -193,7 +188,6 @@ ul {
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
-
   background: url(SnapshootPortfolio2.png);
   border-radius: 8px;
 }
@@ -208,10 +202,11 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #172B4D;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   order: 0;
 }
+
 .portfolio-head2 {
   position: static;
   width: 295px;
@@ -222,8 +217,8 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #172B4D;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   order: 0;
 }
 
@@ -231,11 +226,11 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 236px;
   height: 32px;
-  left: 0px;
+  left: 0;
   margin-top: 12px;
   justify-content: space-between;
 }
@@ -244,7 +239,7 @@ ul {
   position: static;
   width: 55px;
   height: 16px;
-  left: 0px;
+  left: 0;
   margin-top: 20px;
   font-family: Poppins;
   font-style: normal;
@@ -258,7 +253,7 @@ ul {
   position: static;
   width: 88px;
   height: 16px;
-  left: 0px;
+  left: 0;
   margin-top: 20px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -272,7 +267,7 @@ ul {
   position: static;
   width: 29px;
   height: 16px;
-  left: 0px;
+  left: 0;
   margin-top: 20px;
   font-family: Poppins;
   font-style: normal;
@@ -286,13 +281,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 295px;
   height: auto;
   margin-left: 16px;
   margin-top: 12px;
-  
 }
 
 .p-text {
@@ -313,7 +307,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 239px;
   height: 28px;
@@ -326,8 +320,8 @@ ul {
   position: static;
   width: 65px;
   height: 28px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background: #EBEBFF;
   border-radius: 8px;
   text-align: center;
@@ -343,10 +337,9 @@ ul {
   width: 57px;
   height: 28px;
   left: 61px;
-  top: 0px;
+  top: 0;
   background: #EBEBFF;
   border-radius: 8px;
-  
   text-align: center;
   color: #6070FF;
   text-decoration: none;
@@ -354,15 +347,14 @@ ul {
   font-style: normal;
   font-weight: 500;
 }
-.p-javas {
-  
+
+.p-javas {  
   width: 103px;
   height: 28px;
   left: 114px;
-  top: 0px;
+  top: 0;
   background: #EBEBFF;
   border-radius: 8px;
-
   text-align: center;
   color: #6070FF;
   text-decoration: none;
@@ -376,13 +368,11 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-
   position: absolute;
   width: 124px;
   height: 48px;
   margin-left: 16px;
   margin-top: 28px;
-
   border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
@@ -390,20 +380,19 @@ ul {
 
 .p-proj {
   font-family: Poppins, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-color: #396DF2;
-text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396DF2;
+  text-decoration: none;
 }
 
 .card3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-
+  padding: 0;
   position: static;
   width: 327px;
   height: 409px;
@@ -416,8 +405,8 @@ text-decoration: none;
   position: static;
   width: 327px;
   height: 101px;
-  left: 0px;
-  margin: 0px;
+  left: 0;
+  margin: 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -433,7 +422,7 @@ text-decoration: none;
   position: static;
   width: 327px;
   height: 144px;
-  left: 0px;
+  left: 0;
   margin-top: 12px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -441,9 +430,8 @@ text-decoration: none;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   order: 1;
-
 }
 
 .r-holder {
@@ -451,15 +439,11 @@ text-decoration: none;
   flex-direction: row;
   align-items: center;
   padding: 12px;
-
   position: static;
   width: 166px;
   height: 48px;
-  left: 0px;
+  left: 0;
   margin-top: 22px;
-
-/* Primary/B400 */
-
   border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
@@ -467,34 +451,29 @@ text-decoration: none;
 }
 
 .r-button {
-
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396DF2;
   text-decoration: none;
-
-
 }
 
 .frame2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-
+  padding: 0;
   position: static;
   width: 327px;
   height: 320.15px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   order: 4;
 }
 
@@ -502,9 +481,8 @@ text-decoration: none;
   position: static;
   width: 327px;
   height: 72px;
-  left: 0px;
-  top: 0px;
-
+  left: 0;
+  top: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -518,15 +496,12 @@ text-decoration: none;
   margin-left: 12px;
   margin-right: 78px;
   margin-top: 60px;
-
   font-family: Poppins,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
   align-items: center;
-
   color: #000000;
   order: 0;
 }
@@ -536,16 +511,13 @@ text-decoration: none;
   height: 24px;
   margin-left: 12px;
   margin-right: 78px;
-  margin-top: 0px;
-
+  margin-top: 0;
   font-family: Poppins,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
   align-items: center;
-
   color: #000000;
 }
 
@@ -554,11 +526,8 @@ text-decoration: none;
   margin-right: 26px;
   margin-top: 53px;
   margin-left: 249px;
-
   border-radius: 8px;
   order: 1;
-  
-
 }
 
 .l-list {
@@ -566,15 +535,13 @@ text-decoration: none;
   flex-direction: column;
   align-items: center;
   padding: 12px;
-
   position: static;
   width: 327px;
   height: 360.15px;
-  left: 0px;
+  left: 0;
   margin-top: 72px;
   justify-content: space-between;
 }
-
 
 @media all and (max-width: 375px) {
   .container {
@@ -590,7 +557,7 @@ text-decoration: none;
     height: 587.15px;
     width: 375px;
     background-color: white;
-    border-radius: 0px 0px 0px 100px;
+    border-radius: 0 100px;
   }
 
   .grid-container {
@@ -606,6 +573,6 @@ text-decoration: none;
     width: 375px;
     height: 1125px;
     background-color: white;
-    border-radius: 0px 100px 0px 0px;
+    border-radius: 0 100px 0;
   }
 }
