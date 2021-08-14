@@ -27,6 +27,14 @@ ul {
   border-radius: 8px;
 }
 
+.a-lang {
+  color: #6070ff;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .mylogo {
   position: static;
   width: 76px;
@@ -323,11 +331,6 @@ ul {
   background: #ebebff;
   border-radius: 8px;
   text-align: center;
-  color: #6070ff;
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
 }
 
 .p-css {
