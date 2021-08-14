@@ -180,8 +180,8 @@ ul {
   margin-top: 16px;
   background: url(SnapshootPortfolio4.png);
   border-radius: 8px;
-
 }
+
 .portfolio-image4 {
   position: static;
   width: 295px;
@@ -201,7 +201,7 @@ ul {
   font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 0;
   margin-bottom: 0;
   order: 0;
@@ -241,7 +241,7 @@ ul {
   height: 16px;
   left: 0;
   margin-top: 20px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -249,7 +249,7 @@ ul {
   color: #344563;
 }
 
-.backend{
+.backend {
   position: static;
   width: 88px;
   height: 16px;
@@ -260,7 +260,7 @@ ul {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .year {
@@ -277,7 +277,7 @@ ul {
   color: #7A869A;
 }
 
-.p-layout{
+.p-layout {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -322,10 +322,10 @@ ul {
   height: 28px;
   left: 0;
   top: 0;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -338,10 +338,10 @@ ul {
   height: 28px;
   left: 61px;
   top: 0;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -356,7 +356,7 @@ ul {
   background: #EBEBFF;
   border-radius: 8px;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -373,7 +373,7 @@ ul {
   height: 48px;
   margin-left: 16px;
   margin-top: 28px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6171ff;
   box-sizing: border-box;
   border-radius: 8px;
 }
@@ -384,7 +384,7 @@ ul {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #3a6ff2;
   text-decoration: none;
 }
 
@@ -414,7 +414,7 @@ ul {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172c4f;
   order: 0;
 }
 
@@ -444,7 +444,7 @@ ul {
   height: 48px;
   left: 0;
   margin-top: 22px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   order: 3;
@@ -460,7 +460,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   text-decoration: none;
 }
 
@@ -564,9 +564,9 @@ ul {
     display: grid;
     height: 2788px;
     width: 375px;
-    top: 718px;
-    
+    top: 718px; 
   }
+  
   .grid-container2 {
     display: grid;
     margin-top: 114px;
