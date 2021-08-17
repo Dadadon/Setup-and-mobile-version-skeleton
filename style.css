@@ -551,7 +551,77 @@ ul {
   background-color: #fff;
   border-radius: 100px 0 0 0;
   width: 375px;
-  height: 779px;
+  height: 785px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.foot form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form input {
+  width: 327px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px #cfd8dc;
+  padding: 10px 16px;
+  margin-bottom: 18px;
+}
+
+label {
+  display: none;
+}
+
+textarea {
+  border-radius: 8px;
+  width: 327px;
+  height: 160px;
+  border: none;
+  margin-bottom: 8px;
+  padding: 15px 16px;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #fff;
+  color: #6070ff;
+  width: 140px;
+  height: 48px;
+  border: none;
+  align-self: start;
+  margin-top: 15px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+}
+
+.contact-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 118px;
+  margin-bottom: 0;
+}
+
+.contact-paragraph {
+  height: 102px;
+  width: 327px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 63px;
+  margin-top: 12px;
+  font-family: Poppins, sans-serif;
 }
 
 @media all and (max-width: 375px) {
@@ -568,11 +638,11 @@ ul {
     background-color: #6070ff;
     border-radius: 100px 0 0 0;
     width: 375px;
-    height: 779px;
+    height: 785px;
     background-image: url(footerbackground.png);
     background-repeat: no-repeat;
     background-size: 63% 96%;
-    background-position: top right;
+    background-position: center right;
   }
 
   .container2 {
@@ -599,74 +669,6 @@ ul {
     height: 1125px;
     background-color: white;
     border-radius: 0 100px 0 0;
-  }
-
-  .white {
-    background-color: #fff;
-  }
-
-  .foot form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-
-  form input {
-    width: 327px;
-    height: 30px;
-    border-radius: 8px;
-    border: solid 1px #cfd8dc;
-    padding: 10px 16px;
-    margin-bottom: 18px;
-  }
-
-  label {
-    display: none;
-  }
-
-  textarea {
-    border-radius: 8px;
-    width: 327px;
-    height: 160px;
-    border: none;
-    margin-bottom: 8px;
-    padding: 15px 16px;
-  }
-
-  .btn {
-    border-radius: 8px;
-    background-color: #fff;
-    color: #6070ff;
-    width: 140px;
-    height: 48px;
-    border: none;
-    align-self: start;
-    margin-top: 22px;
-  }
-
-  .contact-text {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 44px;
-    color: #fff;
-    margin-top: 103px;
-    margin-bottom: 0;
-  }
-
-  .contact-paragraph {
-    height: 102px;
-    width: 327px;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    text-align: center;
-    color: #ebebff;
-    margin-bottom: 63px;
-    margin-top: 12px;
-    font-family: Poppins, sans-serif;
   }
 
 }
