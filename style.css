@@ -598,6 +598,35 @@ textarea {
   margin-top: 15px;
   font-size: 17px;
   font-family: Poppins, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  border-radius: 8px;
+  background: #6070ff;
+  color: white;
+  width: 140px;
+  height: 48px;
+  border: none;
+  align-self: start;
+  margin-top: 15px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+}
+
+.btn:disabled {
+  border-radius: 8px;
+  background: #6070ff;
+  color: #5E6C84;
+  border: 1px solid #C1C7D0;
+  box-sizing: border-box;
+  width: 140px;
+  height: 48px;
+  border: none;
+  align-self: start;
+  margin-top: 15px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
 }
 
 .contact-text {
