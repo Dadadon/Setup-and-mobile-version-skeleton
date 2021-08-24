@@ -572,6 +572,7 @@ form input {
   border: solid 1px #cfd8dc;
   padding: 10px 16px;
   margin-bottom: 18px;
+  font-size: 1rem;
 }
 
 label {
