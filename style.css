@@ -319,7 +319,6 @@ ul {
   height: 28px;
   margin-left: 12px;
   top: 180px;
-  float: left;
   justify-content: space-between;
 }
 
@@ -572,6 +571,7 @@ form input {
   border: solid 1px #cfd8dc;
   padding: 10px 16px;
   margin-bottom: 18px;
+  font-size: 1rem;
 }
 
 label {
