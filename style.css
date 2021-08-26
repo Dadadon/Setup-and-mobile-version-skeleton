@@ -12,6 +12,7 @@ html * {
   color: #396df2;
   text-align: center;
   max-width: 150px;
+  background: white;
 }
 
 @media all and (max-width: 375px) {
