@@ -75,13 +75,13 @@ html * {
   .logoholder {
     order: 0;
   }
-  
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
+
   .menuholder {
     width: 40px;
     height: 40px;
@@ -89,7 +89,7 @@ html * {
     margin-top: 26px;
     border-radius: 8px;
   }
-  
+
   .a-lang {
     color: #6070ff;
     text-decoration: none;
@@ -97,7 +97,7 @@ html * {
     font-style: normal;
     font-weight: 500;
   }
-  
+
   .mylogo {
     position: static;
     width: 76px;
@@ -117,14 +117,14 @@ html * {
     margin-top: 26px;
     text-decoration: none;
   }
-  
+
   .headerholder {
     width: 327px;
     height: 150px;
     margin-left: 24px;
     margin-top: 114px;
   }
-  
+
   .head {
     font-style: normal;
     font-weight: bold;
@@ -138,7 +138,7 @@ html * {
     height: 150px;
     position: static;
   }
-  
+
   .headtext {
     width: 327px;
     height: auto;
@@ -155,11 +155,11 @@ html * {
     order: 1;
     flex-grow: 0;
   }
-  
+
   .supporttext {
     order: 2;
   }
-  
+
   .suptext {
     position: static;
     width: 117px;
@@ -171,7 +171,7 @@ html * {
     line-height: 24px;
     color: #7f8cff;
   }
-  
+
   .suptext2 {
     position: static;
     width: 117px;
@@ -183,7 +183,7 @@ html * {
     line-height: 24px;
     color: #7f8cff;
   }
-  
+
   .social {
     display: flex;
     order: 3;
@@ -192,7 +192,7 @@ html * {
     width: 170.17px;
     margin-top: 10px;
   }
-  
+
   .social2 {
     display: flex;
     order: 3;
@@ -200,7 +200,7 @@ html * {
     width: 170.17px;
     margin-top: 26px;
   }
-  
+
   .card1 {
     height: 552px;
     width: 327px;
@@ -210,7 +210,7 @@ html * {
     border-radius: 16px;
     background-color: white;
   }
-  
+
   .card2 {
     height: 596px;
     width: 327px;
@@ -220,7 +220,7 @@ html * {
     border-radius: 16px;
     background-color: white;
   }
-  
+
   .portfolio-image {
     position: static;
     width: 295px;
@@ -230,7 +230,7 @@ html * {
     background: url(SnapshootPortfolio.png);
     border-radius: 8px;
   }
-  
+
   .portfolio-image2 {
     position: static;
     width: 295px;
@@ -240,7 +240,7 @@ html * {
     background: url(SnapshootPortfolio3.png);
     border-radius: 8px;
   }
-  
+
   .portfolio-image3 {
     position: static;
     width: 295px;
@@ -250,7 +250,7 @@ html * {
     background: url(SnapshootPortfolio4.png);
     border-radius: 8px;
   }
-  
+
   .portfolio-image4 {
     position: static;
     width: 295px;
@@ -260,7 +260,7 @@ html * {
     background: url(SnapshootPortfolio2.png);
     border-radius: 8px;
   }
-  
+
   .portfolio-head {
     position: static;
     width: 295px;
@@ -275,7 +275,7 @@ html * {
     margin-bottom: 0;
     order: 0;
   }
-  
+
   .portfolio-head2 {
     position: static;
     width: 295px;
@@ -290,7 +290,7 @@ html * {
     margin-bottom: 0;
     order: 0;
   }
-  
+
   .frame {
     display: flex;
     flex-direction: row;
@@ -303,7 +303,7 @@ html * {
     margin-top: 12px;
     justify-content: space-between;
   }
-  
+
   .canopy {
     position: static;
     width: 55px;
@@ -317,7 +317,7 @@ html * {
     line-height: 16px;
     color: #344563;
   }
-  
+
   .backend {
     position: static;
     width: 88px;
@@ -331,7 +331,7 @@ html * {
     line-height: 16px;
     color: #7a869a;
   }
-  
+
   .year {
     position: static;
     width: 29px;
@@ -345,7 +345,7 @@ html * {
     line-height: 16px;
     color: #79859a;
   }
-  
+
   .p-layout {
     display: flex;
     flex-direction: column;
@@ -357,7 +357,7 @@ html * {
     margin-left: 16px;
     margin-top: 12px;
   }
-  
+
   .p-text {
     position: static;
     width: 295px;
@@ -371,7 +371,7 @@ html * {
     line-height: 24px;
     color: #344563;
   }
-  
+
   .lang {
     display: flex;
     flex-direction: row;
@@ -384,7 +384,7 @@ html * {
     top: 180px;
     justify-content: space-between;
   }
-  
+
   .p-html {
     position: static;
     width: 65px;
@@ -395,7 +395,7 @@ html * {
     border-radius: 8px;
     text-align: center;
   }
-  
+
   .p-css {
     position: static;
     width: 57px;
@@ -411,7 +411,7 @@ html * {
     font-style: normal;
     font-weight: 500;
   }
-  
+
   .p-javas {
     width: 103px;
     height: 28px;
@@ -426,7 +426,7 @@ html * {
     font-style: normal;
     font-weight: 500;
   }
-  
+
   .p-proj {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -436,7 +436,7 @@ html * {
     color: #3a6ff2;
     text-decoration: none;
   }
-  
+
   .card3 {
     display: flex;
     flex-direction: column;
@@ -449,7 +449,7 @@ html * {
     margin-top: 114px;
     margin-right: 24px;
   }
-  
+
   .a-head {
     position: static;
     width: 327px;
@@ -466,7 +466,7 @@ html * {
     color: #172c4f;
     order: 0;
   }
-  
+
   .a-par {
     position: static;
     width: 327px;
@@ -482,7 +482,7 @@ html * {
     margin-bottom: 0;
     order: 1;
   }
-  
+
   .r-holder {
     display: flex;
     flex-direction: row;
@@ -498,7 +498,7 @@ html * {
     border-radius: 8px;
     order: 3;
   }
-  
+
   .r-button {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -512,7 +512,7 @@ html * {
     color: #396df2;
     text-decoration: none;
   }
-  
+
   .frame2 {
     display: flex;
     flex-direction: column;
@@ -525,7 +525,7 @@ html * {
     top: 0;
     order: 4;
   }
-  
+
   .frame3 {
     position: static;
     width: 327px;
@@ -538,7 +538,7 @@ html * {
     padding: 8px;
     margin-bottom: 24px;
   }
-  
+
   .language {
     position: absolute;
     height: 24px;
@@ -554,7 +554,7 @@ html * {
     color: #000;
     order: 0;
   }
-  
+
   .frameworks {
     position: absolute;
     height: 24px;
@@ -569,7 +569,7 @@ html * {
     align-items: center;
     color: #000;
   }
-  
+
   .disabled {
     position: absolute;
     margin-right: 26px;
@@ -578,7 +578,7 @@ html * {
     border-radius: 8px;
     order: 1;
   }
-  
+
   .l-list {
     display: flex;
     flex-direction: column;
@@ -591,7 +591,7 @@ html * {
     margin-top: 72px;
     justify-content: space-between;
   }
-  
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -601,7 +601,7 @@ html * {
     width: 375px;
     height: 785px;
   }
-  
+
   .white {
     background-color: #fff;
   }
@@ -612,7 +612,7 @@ html * {
     flex-direction: column;
     margin-top: 20px;
   }
-  
+
   form input {
     width: 327px;
     height: 30px;
@@ -621,11 +621,11 @@ html * {
     padding: 10px 16px;
     margin-bottom: 18px;
   }
-  
+
   label {
     display: none;
   }
-  
+
   textarea {
     border-radius: 8px;
     width: 327px;
@@ -634,7 +634,7 @@ html * {
     margin-bottom: 8px;
     padding: 15px 16px;
   }
-  
+
   .btn {
     border-radius: 8px;
     background-color: #fff;
@@ -648,7 +648,7 @@ html * {
     font-family: Poppins, sans-serif;
     transition-duration: 0.4s;
   }
-  
+
   .btn:hover {
     border-radius: 8px;
     background: #6070ff;
@@ -661,7 +661,7 @@ html * {
     font-size: 17px;
     font-family: Poppins, sans-serif;
   }
-  
+
   .btn:disabled {
     border-radius: 8px;
     background: #6070ff;
@@ -675,7 +675,7 @@ html * {
     font-size: 17px;
     font-family: Poppins, sans-serif;
   }
-  
+
   .contact-text {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -686,7 +686,7 @@ html * {
     margin-top: 118px;
     margin-bottom: 0;
   }
-  
+
   .contact-paragraph {
     height: 102px;
     width: 327px;
@@ -699,7 +699,7 @@ html * {
     margin-top: 12px;
     font-family: Poppins, sans-serif;
   }
-  
+
   .l-list2 {display: none;}
 
   .frame21 {
@@ -757,8 +757,7 @@ html * {
     margin-right: 24px;
     margin-top: 26px;
     border-radius: 8px;
-    order: 1
-    ;
+    order: 1;
   }
 
   .container2 {
@@ -820,14 +819,15 @@ html * {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
+
   .suptext2 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
   .social {
@@ -852,15 +852,14 @@ html * {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10%;
-    
   }
-  
+
   .card1 {
     display: flex;
     width: 1156px;
     height: 496px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin-top: 10%; 
     align-items: center;
@@ -876,7 +875,6 @@ html * {
     margin-top: 3rem;
     margin-left: 2.1%;
     margin-right: 2.1%;
-  
     background-repeat: no-repeat;
   }
 
@@ -921,19 +919,19 @@ html * {
     color: #344563;
   }
 
-.p-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  width: 124px;
-  height: 48px;
-  margin-left: 16px;
-  margin-top: 28px;
-  border: 1px solid #6171ff;
-  box-sizing: border-box;
-  border-radius: 8px;
-}
+  .p-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    margin-left: 16px;
+    margin-top: 28px;
+    border: 1px solid #6171ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
 
   .backend {
     position: static;
@@ -1027,6 +1025,7 @@ html * {
     width: 31%;
     align-self: center;
   }
+
   .social2 {
     display: flex;
     justify-content: space-between;
@@ -1081,15 +1080,15 @@ html * {
     align-items: center;
   }
 
-form input {
-  width: 327px;
-  height: 30px;
-  border-radius: 8px;
-  border: solid 1px #cfd8dc;
-  padding: 10px 16px;
-  margin-bottom: 18px;
-  font-size: 1rem;
-}
+  form input {
+    width: 327px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 1px #cfd8dc;
+    padding: 10px 16px;
+    margin-bottom: 18px;
+    font-size: 1rem;
+  }
 
   .contact-paragraph {
     width: 450px;
@@ -1131,7 +1130,7 @@ form input {
     font-family: Poppins, sans-serif;
     transition-duration: 0.4s;
   }
-  
+
   .p-button {
     float: left;
     margin-left: 0;
