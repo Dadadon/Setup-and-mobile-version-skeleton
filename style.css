@@ -921,6 +921,20 @@ html * {
     color: #344563;
   }
 
+.p-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  margin-left: 16px;
+  margin-top: 28px;
+  border: 1px solid #6171ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
   .backend {
     position: static;
     width: auto;
@@ -1066,6 +1080,16 @@ html * {
     gap: 20px;
     align-items: center;
   }
+
+form input {
+  width: 327px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px #cfd8dc;
+  padding: 10px 16px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
 
   .contact-paragraph {
     width: 450px;
