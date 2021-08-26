@@ -605,7 +605,7 @@ html * {
   .white {
     background-color: #fff;
   }
-  
+
   .foot form {
     display: flex;
     align-items: center;
@@ -700,7 +700,9 @@ html * {
     font-family: Poppins, sans-serif;
   }
 
-  .l-list2 {display: none;}
+  .l-list2 {
+    display: none;
+  }
 
   .frame21 {
     display: none;
@@ -712,7 +714,6 @@ html * {
 }
 
 @media all and (min-width: 1440px) {
-
   body {
     width: 100%;
     height: auto;
@@ -760,7 +761,7 @@ html * {
     width: 100%;
     background-color: white;
     border-radius: 0 0 0 100px;
-    background-size:97% 85%;
+    background-size: 97% 85%;
     background-position: top right;
   }
 
@@ -881,7 +882,7 @@ html * {
   .framed {
     display: flex;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: static;
     width: 297px;
     height: 40px;
@@ -897,7 +898,9 @@ html * {
     width: 496px;
   }
 
-  .p-text {display: none;}
+  .p-text {
+    display: none;
+  }
 
   .canopy {
     position: static;
@@ -913,7 +916,6 @@ html * {
   .p-button {
     float: left;
     margin-left: 0;
-
   }
 
   .backend {
@@ -952,17 +954,16 @@ html * {
     justify-content: space-between;
     width: 1156px;
     height: 496px;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
-    margin-top: 10%; 
+    margin-top: 10%;
     align-items: center;
     padding: 0.2rem 1rem;
   }
 
   .portfolio-image2 {
     background: url("SnapshotPortfolio2.png");
-    order: 0;
     width: 50%;
     height: 100%;
     margin-top: 3rem;
@@ -985,7 +986,6 @@ html * {
 
   .portfolio-image4 {
     background: url("SnapshotPortfolio4.png");
-    order: 0;
     width: 50%;
     height: 100%;
     margin-top: 3rem;
@@ -1020,21 +1020,21 @@ html * {
   }
 
   .l-list2 {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding: 12px;
     gap: 20px;
     width: 414px;
   }
 
-  .frame21{
+  .frame21 {
     align-self: center;
   }
 
   .frame3 {
     display: flex;
     width: 604px;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
 
   .white {
@@ -1072,6 +1072,7 @@ html * {
     margin-top: 8rem;
     margin-bottom: 0;
   }
+
   .contact-paragraph {
     width: 450px;
     height: 102px;
@@ -1137,7 +1138,6 @@ html * {
 
   .btn:disabled {
     border-radius: 8px;
-    background: #6070ff;
     color: #5e6c84;
     border: 1px solid #c1c7d0;
     box-sizing: border-box;
