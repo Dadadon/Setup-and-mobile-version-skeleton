@@ -1212,5 +1212,7 @@ html * {
     color: #091E42;
   }
 
-  .frame {display: none;}
+  .frame {
+    display: none;
+  }
 }
