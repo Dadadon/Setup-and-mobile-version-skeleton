@@ -899,7 +899,7 @@ html * {
     justify-content: space-between;
   }
 
-  .p-text {
+  .p-textd {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -908,11 +908,12 @@ html * {
     width: 496px;
   }
 
+  .p-text {display: none;}
+
   .canopy {
     position: static;
     width: auto;
     height: 24px;
-
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
