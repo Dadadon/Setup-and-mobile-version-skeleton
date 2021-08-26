@@ -751,15 +751,6 @@ html * {
     text-decoration: none;
   }
 
-  .menuholder {
-    width: 40px;
-    height: 40px;
-    margin-right: 24px;
-    margin-top: 26px;
-    border-radius: 8px;
-    order: 1;
-  }
-
   .container2 {
     display: flex;
     flex-direction: column;
@@ -1204,7 +1195,7 @@ html * {
     margin-top: 1%;
   }
 
-  .menu-items a {
+  a.menu-items {
     color: #344563;
     font-weight: 500;
     font-size: 15px;
@@ -1214,7 +1205,7 @@ html * {
   .menuholder {
     display: none;
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -1232,7 +1223,7 @@ html * {
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .frame {
