@@ -15,7 +15,6 @@ html * {
   background: white;
 }
 
-@media all and (max-width: 375px) {
   .container {
     display: flex;
     justify-content: space-between;
@@ -52,16 +51,14 @@ html * {
 
   .grid-container {
     display: grid;
-    height: 2788px;
-    width: 375px;
-    top: 718px;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
   }
 
   .grid-container2 {
     display: grid;
     margin-top: 114px;
-    width: 375px;
-    height: 1125px;
+    width: 100%;
     background-color: white;
     border-radius: 0 100px 0 0;
   }
@@ -132,12 +129,6 @@ html * {
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
-    order: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 327px;
-    height: 150px;
-    position: static;
   }
 
   .headtext {
@@ -203,21 +194,15 @@ html * {
   }
 
   .card1 {
-    height: 552px;
-    width: 327px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 114px;
+    width: 90%;
+    margin: 1rem 1.5rem;
     border-radius: 16px;
     background-color: white;
   }
 
   .card2 {
-    height: 596px;
-    width: 327px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 114px;
+    width: 90%;
+    margin: 1rem 1.5rem;
     border-radius: 16px;
     background-color: white;
   }
@@ -720,9 +705,8 @@ html * {
   .portfolio-head2d {
     display: none;
   }
-}
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1025px) {
   body {
     width: 100%;
     height: auto;
@@ -776,8 +760,7 @@ html * {
 
   .headerholder {
     width: 920px;
-    height: 122px;
-    margin-top: 15.1%;
+    margin-top: 1rem;
     margin-left: 18.05%;
     order: 0;
     display: flex;
@@ -793,11 +776,9 @@ html * {
 
   .headtext {
     width: 63.9%;
-    height: 10.7%;
-    left: 24px;
     margin-left: 18.05%;
     margin-right: 18.05%;
-    margin-top: 2.2%;
+    margin-top: 1rem;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -857,12 +838,8 @@ html * {
 
   .card1 {
     display: flex;
-    width: 1156px;
-    height: 496px;
-    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    margin-top: 10%;
     align-items: center;
     padding: 0.2rem 1rem;
     justify-content: space-between;
@@ -899,6 +876,7 @@ html * {
   }
 
   .p-textd {
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -961,12 +939,8 @@ html * {
   .card2 {
     display: flex;
     justify-content: space-between;
-    width: 1156px;
-    height: 496px;
-    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    margin-top: 10%;
     align-items: center;
     padding: 0.2rem 1rem;
   }
@@ -1214,6 +1188,7 @@ html * {
   }
 
   .portfolio-head2d {
+    display: block;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
