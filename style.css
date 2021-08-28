@@ -956,6 +956,7 @@ html * {
 
   .a-par {
     width: auto;
+    height: auto;
   }
 
   .social2 {
@@ -974,12 +975,14 @@ html * {
     padding: 12px;
     gap: 20px;
     width: 414px;
+    margin-top: 2rem;
   }
 
   .frame21 {
     display: block;
     align-self: center;
     width: 49%;
+    margin-top: 3rem;
   }
 
   .frame3 {
