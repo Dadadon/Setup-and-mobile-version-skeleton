@@ -4,7 +4,6 @@ html * {
 
 .p-button {
   padding: 12px;
-  margin-left: 16px;
   margin-top: 28px;
   border: 1px solid #6171ff;
   box-sizing: border-box;
@@ -409,10 +408,6 @@ ul {
   font-weight: 500;
 }
 
-.p-button {
-  margin-left: 0;
-}
-
 .card3 {
   width: 100%;
   margin-left: 24px;
@@ -420,7 +415,7 @@ ul {
   margin-right: 24px;
 }
 
-.card3 .p-button {
+.card3 p-button {
   margin-top: 10px;
 }
 
