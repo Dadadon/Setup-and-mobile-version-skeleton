@@ -4,6 +4,8 @@
 Additional description about the project and its features.
 
 ![screenshot](./Portfolio-screenshot.png)
+
+> Link to live preview of my portfolio (https://dadadon.github.io/Setup-and-mobile-version-skeleton/)
 ## Built With
 
 - html
