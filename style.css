@@ -160,7 +160,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #4e5cd4;
 }
 
 .suptext2 {
@@ -172,7 +172,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #4e5cd4;
 }
 
 .social {
@@ -599,13 +599,14 @@ textarea {
 .btn {
   border-radius: 8px;
   background-color: #fff;
-  color: #6070ff;
+  color: #4e5cd4; 
   width: 140px;
   height: 48px;
   border: none;
   align-self: start;
   margin-top: 15px;
   font-size: 17px;
+  font-weight: bold;
   font-family: Poppins, sans-serif;
   transition-duration: 0.4s;
 }
@@ -699,7 +700,7 @@ textarea {
     height: 20px;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -765,18 +766,18 @@ textarea {
 
   .suptext {
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #4e5cd4;
   }
 
   .suptext2 {
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #4e5cd4;
   }
 
   .social {
@@ -1029,6 +1030,7 @@ textarea {
     text-align: center;
     color: #ebebff;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
 
   form input {
@@ -1059,7 +1061,7 @@ textarea {
   .btn {
     border-radius: 8px;
     background-color: #fff;
-    color: #6070ff;
+    color: #4e5cd4; 
     width: 140px;
     height: 48px;
     border: none;
@@ -1104,11 +1106,11 @@ textarea {
   }
 
   .a-lang {
-    color: #6070ff;
+    color: #4e5cd4; 
     text-decoration: none;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bolder;
     background: #ebebff;
     border-radius: 8px;
     font-size: 12px;
@@ -1116,6 +1118,7 @@ textarea {
     letter-spacing: 0.03em;
     padding: 0.5rem 1rem;
     margin: 0 0.3rem;
+
   }
 
   .menu-items {
