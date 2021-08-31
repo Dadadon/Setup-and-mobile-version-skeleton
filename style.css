@@ -63,7 +63,7 @@ html * {
 }
 
 body {
-  width: 375px;
+  width: 100%;
   height: auto;
   background: #e6e6e6;
   margin: 0;
