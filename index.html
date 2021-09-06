@@ -12,23 +12,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 <body>
     <header>
-        <div class="container">
+        <div id="myNav" class="overlay">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <div class="overlay-content">
+              <a href="#">Portfolio</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+          
+          </div>
+        <nav class="container">
             <div class="logoholder">
                 <a class="mylogo" href="index.html">My Logo</a>
             </div>
-            <nav class="menuholder">
+            <div class="menuholder" onclick="openNav()">
                 <img src="menuicon.png" alt="test">
 
-            </nav>
+            </div>
             <nav class="menu-items">
                 <a href="#">Portfolio</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
-              </nav>
-        </div>
+            </nav>
+        </nav>
+
     </header>
 
     <section class="container2">
@@ -377,10 +399,13 @@
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
         </p>
         <form action="https://formspree.io/f/mrgrolwk" method="POST">
+            <label for="fname">First Name</label>
             <input id="fname" title="Full Name" type="text" maxlength="30" name="full-name" placeholder="Full Name" required class="input">
-
+            
+            <label for="email">Email</label>
             <input id="email" title="Email" type="email" name="email-address" placeholder="Email" required class="input">
 
+            <label for="textarea">TextArea</label>
             <textarea id="textarea" title="comment" name="comment" maxlength="500" cols="30" rows="10" placeholder="Write your message here" required class="input text-area"></textarea>
             <button class="btn" type="submit">Get in touch</button>
         </form>
