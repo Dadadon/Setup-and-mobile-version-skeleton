@@ -744,7 +744,7 @@ textarea {
 
   .mylogo {
     position: static;
-    width: 76px;
+    width: auto;
     height: 20px;
     font-style: normal;
     font-weight: bold;
