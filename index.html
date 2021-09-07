@@ -1,401 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-941LSS5HK8'); </script> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-941LSS5HK8");
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+    
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="logoholder">
-                <a class="mylogo" href="#top">My Logo</a>
-            </div>
-            <nav class="menuholder">
-                <img src="menuicon.png" alt="test">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
 
-            </nav>
-            <nav class="menu-items">
-                <a href="#">Portfolio</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-              </nav>
+        <div class="overlay-content">
+          <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+          <a href="#about" onclick="closeNav()">About</a>
+          <a href="#contact" onclick="closeNav()">Contact</a>
         </div>
+      </div>
+      <nav class="container">
+        <div class="logoholder">
+          <a class="mylogo" href="index.html">My Logo</a>
+        </div>
+        <div class="menuholder" onclick="openNav()">
+          <img src="menuicon.png" alt="test" />
+        </div>
+        <nav class="menu-items">
+          <a href="#">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </nav>
     </header>
 
     <section class="container2">
-        <div class="headerholder">
-            <h1 class="head">I’m Davian<br>Glad to see you!</h1>
-        </div>
-        <p class="headtext">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      <div class="headerholder">
+        <h1 class="head">I’m Davian<br />Glad to see you!</h1>
+      </div>
+      <p class="headtext">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
 
-        <div class="supporttext">
-            <h1 class="suptext">
-                LET'S CONNECT
-            </h1>
-        </div>
+      <div class="supporttext">
+        <h1 class="suptext">LET'S CONNECT</h1>
+      </div>
 
-        <ul class="social">
-            <li>
-                <a href=""><img src="Vector.svg" alt=""></a>
-
-            </li>
-            <li>
-                <a href=""><img src="Linkedinicon.svg" alt=""></a>
-            </li>
-            <li>
-                <a href=""><img src="Vector.png" alt=""></a>
-            </li>
-            <li>
-                <a href=""><img src="Vector2.svg" alt=""></a>
-            </li>
-            <li>
-                <a href=""><img src="Vector3.svg" alt=""></a>
-            </li>
-        </ul>
-
+      <ul class="social">
+        <li>
+          <a href=""><img src="Vector.svg" alt="1" /></a>
+        </li>
+        <li>
+          <a href=""><img src="Linkedinicon.svg" alt="2" /></a>
+        </li>
+        <li>
+          <a href=""><img src="Vector.png" alt="3" /></a>
+        </li>
+        <li>
+          <a href=""><img src="Vector2.svg" alt="4" /></a>
+        </li>
+        <li>
+          <a href=""><img src="Vector3.svg" alt="5" /></a>
+        </li>
+      </ul>
     </section>
-    <div class="grid-container">
-        <section class="card1">
-            <section class="portfolio-image"></section>
-            <div class="p-layout">
-                <h1 class="portfolio-head">Tonic</h1>
-                <h1 class="portfolio-head2d">Tonic</h1>
-                <ul class="frame">
-                    <li>
-                        <h2 class="canopy">CANOPY</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Back End Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <ul class="framed">
-                    <li>
-                        <h2 class="canopy">CANOPY</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Back End Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <p class="p-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="p-textd">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="lang">
-                <li class="p-html"><a class="a-lang" href="">html</a></li>
-                <li class="p-css"><a class="a-lang" href="">css</a></li>
-                <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-            </ul>
-            <button class="p-button" type="submit">
-                See Project
-            </button>
-            </div>
-            
+    <div id="portfolio" class="grid-container">
+      <section class="card1">
+        <section class="portfolio-image"></section>
+        <div class="p-layout">
+          <h1 class="portfolio-head">Tonic</h1>
+          <h1 class="portfolio-head2d">Tonic</h1>
+          <ul class="frame">
+            <li>
+              <h2 class="canopy">CANOPY</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Back End Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <ul class="framed">
+            <li>
+              <h2 class="canopy">CANOPY</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Back End Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <p class="p-text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="p-textd">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="lang">
+            <li class="p-html"><a class="a-lang" href="">html</a></li>
+            <li class="p-css"><a class="a-lang" href="">css</a></li>
+            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
+          </ul>
+          <button class="p-button" type="submit">See Project</button>
+        </div>
+      </section>
+      <section class="card1">
+        <section class="portfolio-image2"></section>
+        <div class="p-layout">
+          <h1 class="portfolio-head2">Multi-Post<br />Stories</h1>
+          <h1 class="portfolio-head2d">Multi-Post Stories</h1>
 
-        </section>
-        <section class="card1">
-            <section class="portfolio-image2"></section>
-            <div class="p-layout">
-                <h1 class="portfolio-head2">Multi-Post<br>Stories</h1>
-                <h1 class="portfolio-head2d">Multi-Post Stories</h1>
+          <ul class="frame">
+            <li>
+              <h2 class="canopy">CANOPY</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Back End Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <ul class="framed">
+            <li>
+              <h2 class="canopy">FACEBOOK</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Full Stack Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <p class="p-text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="p-textd">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <ul class="lang">
+            <li class="p-html"><a class="a-lang" href="">html</a></li>
+            <li class="p-css"><a class="a-lang" href="">css</a></li>
+            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
+          </ul>
+          <button class="p-button" type="submit">See Project</button>
+        </div>
+      </section>
+      <section class="card1">
+        <section class="portfolio-image3"></section>
+        <div class="p-layout">
+          <h1 class="portfolio-head">Tonic</h1>
+          <h1 class="portfolio-head2d">Facebook 360</h1>
+          <ul class="frame">
+            <li>
+              <h2 class="canopy">CANOPY</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Back End Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <ul class="framed">
+            <li>
+              <h2 class="canopy">FACEBOOK</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="3" />
+            </li>
+            <li>
+              <h2 class="backend">Full Stack Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="4" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
 
-                <ul class="frame">
-                    <li>
-                        <h2 class="canopy">CANOPY</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Back End Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <ul class="framed">
-                    <li>
-                        <h2 class="canopy">FACEBOOK</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Full Stack Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <p class="p-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="p-textd">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-            <ul class="lang">
-                <li class="p-html"><a class="a-lang" href="">html</a></li>
-                <li class="p-css"><a class="a-lang" href="">css</a></li>
-                <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-            </ul>
-            <button class="p-button" type="submit">
-                See Project
-            </button>
-            </div>
-            
+          <p class="p-text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="p-textd">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="lang">
+            <li class="p-html"><a class="a-lang" href="">html</a></li>
+            <li class="p-css"><a class="a-lang" href="">css</a></li>
+            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
+          </ul>
+          <button class="p-button" type="submit">See Project</button>
+        </div>
+      </section>
+      <section class="card1">
+        <section class="portfolio-image4"></section>
+        <div class="p-layout">
+          <h1 class="portfolio-head2">Multi-Post<br />Stories</h1>
+          <h1 class="portfolio-head2d">Uber Navigation</h1>
+          <ul class="frame">
+            <li>
+              <h2 class="canopy">CANOPY</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="1" />
+            </li>
+            <li>
+              <h2 class="backend">Back End Dev</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="2" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
+          <ul class="framed">
+            <li>
+              <h2 class="canopy">Uber</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="3" />
+            </li>
+            <li>
+              <h2 class="backend">Lead Developer</h2>
+            </li>
+            <li>
+              <img src="Counter.png" alt="4" />
+            </li>
+            <li>
+              <h2 class="year">2015</h2>
+            </li>
+          </ul>
 
-        </section>
-        <section class="card1">
-            <section class="portfolio-image3"></section>
-            <div class="p-layout">
-                <h1 class="portfolio-head">Tonic</h1>
-                <h1 class="portfolio-head2d">Facebook 360</h1>
-                <ul class="frame">
-                    <li>
-                        <h2 class="canopy">CANOPY</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Back End Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <ul class="framed">
-                    <li>
-                        <h2 class="canopy">FACEBOOK</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Full Stack Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-
-                <p class="p-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="p-textd">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-            <ul class="lang">
-                <li class="p-html"><a class="a-lang" href="">html</a></li>
-                <li class="p-css"><a class="a-lang" href="">css</a></li>
-                <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-            </ul>
-            <button class="p-button" type="submit">
-                See Project
-            </button>
-            </div>
-            
-
-        </section>
-        <section class="card1">
-            <section class="portfolio-image4"></section>
-            <div class="p-layout">
-                <h1 class="portfolio-head2">Multi-Post<br>Stories</h1>
-                <h1 class="portfolio-head2d">Uber Navigation</h1>
-                <ul class="frame">
-                    <li>
-                        <h2 class="canopy">CANOPY</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Back End Dev</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-                <ul class="framed">
-                    <li>
-                        <h2 class="canopy">Uber</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="backend">Lead Developer</h2>
-                    </li>
-                    <li>
-                        <img src="Counter.png" alt="">
-                    </li>
-                    <li>
-                        <h2 class="year">2015</h2>
-                    </li>
-                </ul>
-
-                <p class="p-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <p class="p-textd">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-            <ul class="lang">
-                <li class="p-html"><a class="a-lang" href="">html</a></li>
-                <li class="p-css"><a class="a-lang" href="">css</a></li>
-                <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-            </ul>
-            <button class="p-button" type="submit">
-                See Project
-            </button>
-
-            </div>
-            
-        </section>
+          <p class="p-text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <p class="p-textd">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <ul class="lang">
+            <li class="p-html"><a class="a-lang" href="">html</a></li>
+            <li class="p-css"><a class="a-lang" href="">css</a></li>
+            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
+          </ul>
+          <button class="p-button" type="submit">See Project</button>
+        </div>
+      </section>
     </div>
-    <div class="grid-container2">
-        <section class="card3">
-            <h1 class="a-head">About<br>Myself</h1>
-            <p class="a-par">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <div class="supporttext2">
-                <h1 class="suptext2">LET'S CONNECT</h1>
-            </div>
-            <ul class="social2">
-                <li>
-                    <a href=""><img src="Vector.svg" alt=""></a>
-
-                </li>
-                <li>
-                    <a href=""><img src="Linkedinicon.svg" alt=""></a>
-                </li>
-                <li>
-                    <a href=""><img src="Vector.png" alt=""></a>
-                </li>
-                <li>
-                    <a href=""><img src="Vector2.svg" alt=""></a>
-                </li>
-                <li>
-                    <a href=""><img src="Vector3.svg" alt=""></a>
-                </li>
-            </ul>
-            <div class="p-button">Get my resume</div>
-            <section class="frame2">
-                <div class="frame3">
-                    <h2 class="language">Languages</h2>
-                    <img class="disabled" src="Disabled.png" alt="">
-                </div>
-                <div class="l-list">
-                    <img src="Frame9.png" alt="">
-                    <br>
-                    <img src="Frame10.png" alt="">
-                    <br>
-                    <img src="Frame11.png" alt="">
-                </div>
-                <div class="l-list2">
-                    <img src="Frame9d.png" alt="">
-                    <br>
-                    <img src="Frame10d.png" alt="">
-                    <br>
-                    <img src="Frame11d.png" alt="">
-                </div>
-                <div class="frame3">
-                    <h2 class="language">Frameworks</h2>
-                    <img class="disabled" src="enabled.png" alt="">
-                </div>
-                <div class="frame3">
-                    <h2 class="language">Skills</h2>
-                    <img class="disabled" src="enabled.png" alt="">
-                </div>
-
-
-            </section>
-
-        </section>
-        <section class="frame21">
-                <div class="frame3">
-                    <h2 class="language">Languages</h2>
-                    <img class="disabled" src="Disabled.png" alt="">
-                </div>
-                <div class="l-list">
-                    <img src="Frame9.png" alt="">
-                    <br>
-                    <img src="Frame10.png" alt="">
-                    <br>
-                    <img src="Frame11.png" alt="">
-                </div>
-                <div class="l-list2">
-                    <img src="Frame9d.png" alt="">
-                    <br>
-                    <img src="Frame10d.png" alt="">
-                    <br>
-                    <img src="Frame11d.png" alt="">
-                </div>
-                <div class="frame3">
-                    <h2 class="language">Frameworks</h2>
-                    <img class="disabled" src="enabled.png" alt="">
-                </div>
-                <div class="frame3">
-                    <h2 class="language">Skills</h2>
-                    <img class="disabled" src="enabled.png" alt="">
-                </div>
-
-
-            </section>
-    </div>
-    <section class="white">
-    <footer class="footer white">
-        <div class="foot">
-        <h2 class="contact-text">Contact me</h2>
-        <p class="contact-paragraph">
-            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+    <div id="about" class="grid-container2">
+      <section class="card3">
+        <h1 class="a-head">About<br />Myself</h1>
+        <p class="a-par">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
         </p>
-        <form action="https://formspree.io/f/mrgrolwk" method="POST">
-            
-            <input id="fname" type="text" maxlength="30" name="full-name" placeholder="Full Name" required class="input">
-
-            
-            <input id="email" type="email" name="email-address" placeholder="Email" required class="input">
-
-            
-            <textarea id="textarea" name="comment" maxlength="500" cols="30" rows="10" placeholder="Write your message here" required class="input text-area"></textarea>
-            <button class="btn" type="submit">Get in touch</button>
-        </form>
+        <div class="supporttext2">
+          <h1 class="suptext2">LET'S CONNECT</h1>
+        </div>
+        <ul class="social2">
+          <li>
+            <a href=""><img src="Vector.svg" alt="1" /></a>
+          </li>
+          <li>
+            <a href=""><img src="Linkedinicon.svg" alt="2" /></a>
+          </li>
+          <li>
+            <a href=""><img src="Vector.png" alt="3" /></a>
+          </li>
+          <li>
+            <a href=""><img src="Vector2.svg" alt="4" /></a>
+          </li>
+          <li>
+            <a href=""><img src="Vector3.svg" alt="5" /></a>
+          </li>
+        </ul>
+        <div class="p-button">Get my resume</div>
+        <section class="frame2">
+          <div class="frame3">
+            <h2 class="language">Languages</h2>
+            <img class="disabled" src="Disabled.png" alt="1" />
+          </div>
+          <div class="l-list">
+            <img src="Frame9.png" alt="2" />
+            <br />
+            <img src="Frame10.png" alt="3" />
+            <br />
+            <img src="Frame11.png" alt="4" />
+          </div>
+          <div class="l-list2">
+            <img src="Frame9d.png" alt="5" />
+            <br />
+            <img src="Frame10d.png" alt="6" />
+            <br />
+            <img src="Frame11d.png" alt="7" />
+          </div>
+          <div class="frame3">
+            <h2 class="language">Frameworks</h2>
+            <img class="disabled" src="enabled.png" alt="8" />
+          </div>
+          <div class="frame3">
+            <h2 class="language">Skills</h2>
+            <img class="disabled" src="enabled.png" alt="9" />
+          </div>
+        </section>
+      </section>
+      <section class="frame21">
+        <div class="frame3">
+          <h2 class="language">Languages</h2>
+          <img class="disabled" src="Disabled.png" alt="1" />
+        </div>
+        <div class="l-list">
+          <img src="Frame9.png" alt="2" />
+          <br />
+          <img src="Frame10.png" alt="3" />
+          <br />
+          <img src="Frame11.png" alt="4" />
+        </div>
+        <div class="l-list2">
+          <img src="Frame9d.png" alt="5" />
+          <br />
+          <img src="Frame10d.png" alt="6" />
+          <br />
+          <img src="Frame11d.png" alt="7" />
+        </div>
+        <div class="frame3">
+          <h2 class="language">Frameworks</h2>
+          <img class="disabled" src="enabled.png" alt="8" />
+        </div>
+        <div class="frame3">
+          <h2 class="language">Skills</h2>
+          <img class="disabled" src="enabled.png" alt="9" />
+        </div>
+      </section>
     </div>
+    <section id="contact" class="white">
+      <footer class="footer white">
+        <div class="foot">
+          <h2 class="contact-text">Contact me</h2>
+          <p class="contact-paragraph">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form action="https://formspree.io/f/mrgrolwk" method="POST">
+            <label for="fname">First Name</label>
+            <input
+              id="fname"
+              title="Full Name"
+              type="text"
+              maxlength="30"
+              name="full-name"
+              placeholder="Full Name"
+              required
+              class="input"
+            />
 
-    </footer>
-</section>
+            <label for="email">Email</label>
+            <input
+              id="email"
+              title="Email"
+              type="email"
+              name="email-address"
+              placeholder="Email"
+              required
+              class="input"
+            />
 
-
-
-
-
-</body>
-
+            <label for="textarea">TextArea</label>
+            <textarea
+              id="textarea"
+              title="comment"
+              name="comment"
+              maxlength="500"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+              required
+              class="input text-area"
+            ></textarea>
+            <button class="btn" type="submit">Get in touch</button>
+          </form>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
