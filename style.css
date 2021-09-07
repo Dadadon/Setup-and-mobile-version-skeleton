@@ -33,7 +33,6 @@ html * {
   top: 0;
   background: #6070ff;
   background-color: rgba(96, 112, 255, 0.902);
-
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -50,7 +49,7 @@ html * {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: block;
   transition: 0.3s;
   font-weight: 600;
