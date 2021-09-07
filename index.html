@@ -30,16 +30,16 @@ function closeNav() {
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           
             <div class="overlay-content">
-              <a href="#portfolio">Portfolio</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+              <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+              <a href="#about" onclick="closeNav()">About</a>
+              <a href="#contact" onclick="closeNav()">Contact</a>
             </div>
           
           </div>
         <nav class="container">
             <div class="logoholder">
                 <a class="mylogo" href="index.html">My Logo</a>
-            </div>
+            </div> 
             <div class="menuholder" onclick="openNav()">
                 <img src="menuicon.png" alt="test">
 
@@ -53,7 +53,7 @@ function closeNav() {
 
     </header>
 
-    <section id="about" class="container2">
+    <section class="container2">
         <div class="headerholder">
             <h1 class="head">I’m Davian<br>Glad to see you!</h1>
         </div>
@@ -302,7 +302,7 @@ function closeNav() {
             
         </section>
     </div>
-    <div class="grid-container2">
+    <div id="about" class="grid-container2">
         <section class="card3">
             <h1 class="a-head">About<br>Myself</h1>
             <p class="a-par">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
