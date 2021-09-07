@@ -24,14 +24,14 @@ html * {
   display: none;
 }
 
-.overlay { 
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 0;
   left: 0;
   top: 0;
-  background: #6070FF;
+  background: #6070ff;
   background-color: rgba(96, 112, 255, 0.902);
 
   overflow-x: hidden;
@@ -44,13 +44,13 @@ html * {
   width: 100%;
   text-align: left;
   margin-top: 30px;
-  padding: 1rem
+  padding: 1rem;
 }
 
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
   font-weight: 600;
@@ -58,7 +58,8 @@ html * {
   line-height: 44px;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -92,7 +93,6 @@ html * {
   background-size: cover;
   background-color: white;
   border-radius: 0 0 0 100px;
-  
 }
 
 .grid-container {
@@ -647,7 +647,7 @@ textarea {
 .btn {
   border-radius: 8px;
   background-color: #fff;
-  color: #4e5cd4; 
+  color: #4e5cd4;
   width: 140px;
   height: 48px;
   border: none;
@@ -1110,7 +1110,7 @@ textarea {
   .btn {
     border-radius: 8px;
     background-color: #fff;
-    color: #4e5cd4; 
+    color: #4e5cd4;
     width: 140px;
     height: 48px;
     border: none;
@@ -1155,7 +1155,7 @@ textarea {
   }
 
   .a-lang {
-    color: #4e5cd4; 
+    color: #4e5cd4;
     text-decoration: none;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -1167,7 +1167,6 @@ textarea {
     letter-spacing: 0.03em;
     padding: 0.5rem 1rem;
     margin: 0 0.3rem;
-
   }
 
   .menu-items {
