@@ -152,11 +152,7 @@ portfolioCards.forEach((el, i) => {
   
 </li>`;
 
-
-
   const far = template.content.firstChild;
   far.childNodes[1].appendChild(btn);
   grab("cards").appendChild(far);
-
-  
 });
