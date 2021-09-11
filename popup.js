@@ -159,3 +159,22 @@ portfolioCards.forEach((el, i) => {
   far.childNodes[1].appendChild(btn);
   grab('cards').appendChild(far);
 });
+
+function lowerCase(val) {
+  return /[a-z]/.test(val) && !/[A-Z]/.test(val);
+}
+
+const errorMessage = document.querySelector('.error');
+const form = document.forms['c-form'];
+const mail = form.email;
+
+form.addEventListener('submit', (l) => {
+  l.preventDefault();
+  const email = mail.value;
+  if (!lowerCase(email)) {
+    errorMessage.style.display = 'block';
+  } else {
+    errorMessage.style.display = 'none';
+    form.submit();
+  }
+});
