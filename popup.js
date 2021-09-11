@@ -171,8 +171,7 @@ const messageInput = form.comment;
 const nameInput = form.fullname;
 const formElts = form.querySelectorAll('input, textarea');
 
-const addToLocalStorage = (key, data) =>
-  localStorage.setItem(key, JSON.stringify(data));
+const addToLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
 
 formElts.forEach((fe) => {
   fe.addEventListener('input', () => {
