@@ -167,7 +167,6 @@ function lowerCase(val) {
 const errorMessage = document.querySelector('.error');
 const form = document.forms['c-form'];
 const mail = form.email;
-const submitBtn = document.getElementById('sbtn');
 
 form.addEventListener('submit', (l) => {
   l.preventDefault();
