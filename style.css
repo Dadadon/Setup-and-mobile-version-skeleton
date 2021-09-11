@@ -4,7 +4,7 @@ html * {
 
 .p-button {
   padding: 12px;
-  margin-top: 28px;
+  margin-top: 2rem;
   border: 1px solid #6171ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -12,12 +12,29 @@ html * {
   text-align: center;
   max-width: 150px;
   background: white;
+  margin-left: 1rem;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   background-color: white;
+}
+
+li:first-child {
+  list-style: none;
+}
+
+.containerd {
+  width: 327px;
+  height: 474px;
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  background-color: #ebf0ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .menu-items {
@@ -28,7 +45,7 @@ html * {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 0;
+  z-index: 1;
   left: 0;
   top: 0;
   background: #6070ff;
@@ -67,6 +84,91 @@ html * {
   font-size: 40px;
   top: 15px;
   right: 35px;
+}
+
+.bg-modal {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(182, 177, 177, 0.801);
+  width: 100%;
+  overflow-y: scroll;
+  align-items: center;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.modal-content {
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 30px 15px;
+  border-radius: 16px;
+  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+
+.live {
+  margin-left: 0;
+}
+
+.b-layout {
+  margin-top: 2rem;
+}
+
+.font-f {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+}
+
+.close {
+  align-self: flex-end;
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  top: 20px;
+  color: rgba(103, 121, 142, 1);
+  transform: rotate(45deg);
+}
+
+.modal-image {
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.modal-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.modal-head {
+  margin-bottom: 0;
+}
+
+.p-modal {
+  width: 95%;
+  margin-bottom: 0;
 }
 
 .foot {
@@ -245,50 +347,24 @@ ul {
   margin-top: 5rem;
   border-radius: 16px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card1 .p-button {
   margin-bottom: 1rem;
+  margin-left: 0;
 }
 
 .portfolio-image {
-  position: static;
   width: 295px;
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
-  background: url(SnapshootPortfolio.png);
   border-radius: 8px;
-}
-
-.portfolio-image2 {
-  position: static;
-  width: 295px;
-  height: 220px;
-  margin-left: 16px;
-  margin-top: 16px;
-  background: url(SnapshootPortfolio3.png);
-  border-radius: 8px;
-}
-
-.portfolio-image3 {
-  position: static;
-  width: 295px;
-  height: 220px;
-  margin-left: 16px;
-  margin-top: 16px;
-  background: url(SnapshootPortfolio4.png);
-  border-radius: 8px;
-}
-
-.portfolio-image4 {
-  position: static;
-  width: 295px;
-  height: 220px;
-  margin-left: 16px;
-  margin-top: 16px;
-  background: url(SnapshootPortfolio2.png);
-  border-radius: 8px;
+  order: 0;
 }
 
 .portfolio-head {
@@ -326,17 +402,12 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  position: static;
-  width: 236px;
   height: 32px;
   left: 0;
-  margin-top: 12px;
-  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .canopy {
-  position: static;
-  width: 55px;
   height: 16px;
   left: 0;
   margin-top: 20px;
@@ -346,6 +417,8 @@ ul {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  list-style: disc;
+  list-style-position: inside;
 }
 
 .backend {
@@ -386,6 +459,7 @@ ul {
   height: auto;
   margin-left: 16px;
   margin-top: 12px;
+  order: 1;
 }
 
 .p-text {
@@ -404,13 +478,10 @@ ul {
 .lang {
   display: flex;
   flex-direction: row;
+  height: 20px;
   align-items: center;
-  padding: 0;
-  position: static;
-  width: 239px;
-  height: 28px;
-  top: 180px;
-  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .p-html {
@@ -425,11 +496,7 @@ ul {
 }
 
 .p-css {
-  position: static;
-  width: 57px;
-  height: 28px;
-  left: 61px;
-  top: 0;
+  width: auto;
   background: #ebebff;
   border-radius: 8px;
   text-align: center;
@@ -438,6 +505,8 @@ ul {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
+  font-size: 10px;
+  padding: 5px;
 }
 
 .p-javas {
@@ -856,9 +925,11 @@ textarea {
     display: flex;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.2rem 1rem;
     justify-content: space-between;
+    flex-direction: row;
     width: 80%;
     margin-top: 10%;
   }
@@ -873,10 +944,15 @@ textarea {
     margin-left: 0.2rem;
   }
 
+  .holder {
+    width: 100%;
+    display: flex;
+  }
+
   .p-layout {
     display: flex;
     flex-direction: column;
-    order: 0;
+    order: 1;
     width: 50%;
     margin-left: 2rem;
     align-self: flex-start;
@@ -886,10 +962,9 @@ textarea {
     display: flex;
     align-items: center;
     padding: 0;
-    position: static;
-    width: 297px;
     height: 40px;
     justify-content: space-between;
+    gap: 0.5rem;
   }
 
   .p-textd {
@@ -952,6 +1027,7 @@ textarea {
     width: auto;
     height: 24px;
     gap: 1rem;
+    margin-top: 1rem;
   }
 
   .portfolio-image2 {
@@ -1207,9 +1283,28 @@ textarea {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+    margin-bottom: 0;
   }
 
-  .frame {
-    display: none;
+  .modal-layout {
+    flex-direction: row;
+  }
+
+  .modal-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-modal {
+    width: 70%;
+  }
+
+  .source {
+    margin-left: 1rem;
+  }
+
+  .modal-image {
+    width: 100%;
+    height: 700px;
   }
 }

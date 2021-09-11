@@ -14,15 +14,7 @@
       gtag("js", new Date());
       gtag("config", "G-941LSS5HK8");
     </script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-    
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-      </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,16 +23,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
   </head>
-  
 
   <body>
     <header>
       <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        <a href="javascript:void(0)" class="closebtn" id="cbut" onclick="closeNav()"
           >&times;</a
         >
 
@@ -54,13 +49,13 @@
         <div class="logoholder">
           <a class="mylogo" href="index.html">My Logo</a>
         </div>
-        <div class="menuholder" onclick="openNav()">
+        <div class="menuholder" id="onav" onclick="openNav()">
           <img src="menuicon.png" alt="test" />
         </div>
         <nav class="menu-items">
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+          <a href="#about" onclick="closeNav()">About</a>
+          <a href="#contact" onclick="closeNav()">Contact</a>
         </nav>
       </nav>
     </header>
@@ -98,231 +93,34 @@
       </ul>
     </section>
     <div id="portfolio" class="grid-container">
-      <section class="card1">
-        <section class="portfolio-image"></section>
-        <div class="p-layout">
-          <h1 class="portfolio-head">Tonic</h1>
-          <h1 class="portfolio-head2d">Tonic</h1>
-          <ul class="frame">
-            <li>
-              <h2 class="canopy">CANOPY</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Back End Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <ul class="framed">
-            <li>
-              <h2 class="canopy">CANOPY</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Back End Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <p class="p-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="p-textd">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="lang">
-            <li class="p-html"><a class="a-lang" href="">html</a></li>
-            <li class="p-css"><a class="a-lang" href="">css</a></li>
-            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-          </ul>
-          <button class="p-button" type="submit">See Project</button>
+      <div class="bg-modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-head" id="modal-head">Tonic</h1>
+            <div class="close">+</div>
+          </div>
+          <ul class="frame" id="expd"></ul>
+          <div class="modal-imagec">
+            <img src="SnapshotPortfoliodesk.png" class="modal-image" alt="" />
+          </div>
+          <div class="modal-layout">
+            <p class="p-modal" id="p-modald">Test</p>
+            <div class="r-modal">
+              <ul class="lang" id="lan"></ul>
+              <div class="b-layout">
+                <a class="live p-button"
+                  >See live <span><i class="fa fa-external-link"></i></span
+                ></a>
+                <a class="source p-button"
+                  >See source <span><i class="fa fa-github"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="card1">
-        <section class="portfolio-image2"></section>
-        <div class="p-layout">
-          <h1 class="portfolio-head2">Multi-Post<br />Stories</h1>
-          <h1 class="portfolio-head2d">Multi-Post Stories</h1>
-
-          <ul class="frame">
-            <li>
-              <h2 class="canopy">CANOPY</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Back End Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <ul class="framed">
-            <li>
-              <h2 class="canopy">FACEBOOK</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Full Stack Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <p class="p-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="p-textd">
-            Experimental content creation feature that allows users to add to an
-            existing story over the course of a day without spamming their
-            friends.
-          </p>
-          <ul class="lang">
-            <li class="p-html"><a class="a-lang" href="">html</a></li>
-            <li class="p-css"><a class="a-lang" href="">css</a></li>
-            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-          </ul>
-          <button class="p-button" type="submit">See Project</button>
-        </div>
-      </section>
-      <section class="card1">
-        <section class="portfolio-image3"></section>
-        <div class="p-layout">
-          <h1 class="portfolio-head">Tonic</h1>
-          <h1 class="portfolio-head2d">Facebook 360</h1>
-          <ul class="frame">
-            <li>
-              <h2 class="canopy">CANOPY</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Back End Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <ul class="framed">
-            <li>
-              <h2 class="canopy">FACEBOOK</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="3" />
-            </li>
-            <li>
-              <h2 class="backend">Full Stack Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="4" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-
-          <p class="p-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="p-textd">
-            Exploring the future of media in Facebook's first Virtual Reality
-            app; a place to discover and enjoy 360 photos and videos on Gear VR.
-          </p>
-          <ul class="lang">
-            <li class="p-html"><a class="a-lang" href="">html</a></li>
-            <li class="p-css"><a class="a-lang" href="">css</a></li>
-            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-          </ul>
-          <button class="p-button" type="submit">See Project</button>
-        </div>
-      </section>
-      <section class="card1">
-        <section class="portfolio-image4"></section>
-        <div class="p-layout">
-          <h1 class="portfolio-head2">Multi-Post<br />Stories</h1>
-          <h1 class="portfolio-head2d">Uber Navigation</h1>
-          <ul class="frame">
-            <li>
-              <h2 class="canopy">CANOPY</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="1" />
-            </li>
-            <li>
-              <h2 class="backend">Back End Dev</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="2" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-          <ul class="framed">
-            <li>
-              <h2 class="canopy">Uber</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="3" />
-            </li>
-            <li>
-              <h2 class="backend">Lead Developer</h2>
-            </li>
-            <li>
-              <img src="Counter.png" alt="4" />
-            </li>
-            <li>
-              <h2 class="year">2015</h2>
-            </li>
-          </ul>
-
-          <p class="p-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <p class="p-textd">
-            A smart assistant to make driving more safe, efficient, and fun by
-            unlocking your most expensive computer: your car.
-          </p>
-          <ul class="lang">
-            <li class="p-html"><a class="a-lang" href="">html</a></li>
-            <li class="p-css"><a class="a-lang" href="">css</a></li>
-            <li class="p-javas"><a class="a-lang" href="">javaScript</a></li>
-          </ul>
-          <button class="p-button" type="submit">See Project</button>
-        </div>
-      </section>
+      </div>
     </div>
+    <ul class="card-list" id="cards"></ul>
     <div id="about" class="grid-container2">
       <section class="card3">
         <h1 class="a-head">About<br />Myself</h1>
@@ -461,5 +259,7 @@
         </div>
       </footer>
     </section>
+
+    <script src="popup.js"></script>
   </body>
 </html>
