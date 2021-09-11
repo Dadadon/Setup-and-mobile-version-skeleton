@@ -40,6 +40,7 @@ li:first-child {
 .menu-items {
   display: none;
 }
+
 .error {
   width: auto;
   color: red;
