@@ -46,7 +46,7 @@ const portfolioCards = [
     exp: ['FACEBOOK', 'Ful Stack Dev', '2015'],
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description:
-      'Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     button: 'See Project',
     links: [
       'https://dadadon.github.io/Setup-and-mobile-version-skeleton/',
