@@ -6,6 +6,9 @@ function closeNav() {
   document.getElementById('myNav').style.width = '0%';
 }
 
+document.getElementById('onav').addEventListener('click', openNav(), false);
+document.getElementById('cbut').addEventListener('click', closeNav(), true);
+
 function grab(e) {
   return document.getElementById(e);
 }
