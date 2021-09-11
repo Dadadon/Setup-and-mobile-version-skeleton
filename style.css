@@ -113,6 +113,9 @@ li:first-child {
   padding: 10px 15px 30px 15px;
   border-radius: 16px;
   margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
 }
 
 .live {
@@ -142,8 +145,7 @@ li:first-child {
 }
 
 .modal-image {
-  width: 295px;
-  height: 220px;
+  width: 100%;
   margin-top: 16px;
   border-radius: 8px;
   align-self: center;
@@ -347,6 +349,8 @@ ul {
   background-color: white;
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card1 .p-button {
@@ -921,11 +925,12 @@ textarea {
     display: flex;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.2rem 1rem;
     justify-content: space-between;
     flex-direction: row;
-    width: 95%;
+    width: 80%;
     margin-top: 10%;
   }
 
