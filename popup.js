@@ -1,9 +1,9 @@
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById('myNav').style.width = '100%';
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById('myNav').style.width = '0%';
 }
 
 function grab(e) {
@@ -12,59 +12,59 @@ function grab(e) {
 
 const portfolioCards = [
   {
-    key: "c1",
-    image: "SnapshotPortfoliodesk.png",
-    name: "Tonic",
-    exp: ["CANOPY", "Back End Dev", "2015"],
-    technologies: ["Ruby on rails", "CSS", "JavaScript", "html"],
+    key: 'c1',
+    image: 'SnapshotPortfoliodesk.png',
+    name: 'Tonic',
+    exp: ['CANOPY', 'Back End Dev', '2015'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    button: "See Project",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    button: 'See Project',
     links: [
-      "https://dadadon.github.io/Setup-and-mobile-version-skeleton/",
-      "https://github.com/Dadadon/Setup-and-mobile-version-skeleton",
+      'https://dadadon.github.io/Setup-and-mobile-version-skeleton/',
+      'https://github.com/Dadadon/Setup-and-mobile-version-skeleton',
     ],
   },
   {
-    key: "c2",
-    image: "SnapshotPortfolio2.png",
-    name: "Multi-Post Stories",
-    exp: ["FACEBOOK", "Ful Stack Dev", "2015"],
-    technologies: ["Ruby on rails", "CSS", "JavaScript", "html"],
+    key: 'c2',
+    image: 'SnapshotPortfolio2.png',
+    name: 'Multi-Post Stories',
+    exp: ['FACEBOOK', 'Ful Stack Dev', '2015'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    button: "See Project",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    button: 'See Project',
     links: [
-      "https://dadadon.github.io/Setup-and-mobile-version-skeleton/",
-      "https://github.com/Dadadon/Setup-and-mobile-version-skeleton",
+      'https://dadadon.github.io/Setup-and-mobile-version-skeleton/',
+      'https://github.com/Dadadon/Setup-and-mobile-version-skeleton',
     ],
   },
   {
-    key: "c3",
-    image: "SnapshotPortfolio3.png",
-    name: "Facebook 360",
-    exp: ["FACEBOOK", "Ful Stack Dev", "2015"],
-    technologies: ["Ruby on rails", "CSS", "JavaScript", "html"],
+    key: 'c3',
+    image: 'SnapshotPortfolio3.png',
+    name: 'Facebook 360',
+    exp: ['FACEBOOK', 'Ful Stack Dev', '2015'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    button: "See Project",
+      'Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    button: 'See Project',
     links: [
-      "https://dadadon.github.io/Setup-and-mobile-version-skeleton/",
-      "https://github.com/Dadadon/Setup-and-mobile-version-skeleton",
+      'https://dadadon.github.io/Setup-and-mobile-version-skeleton/',
+      'https://github.com/Dadadon/Setup-and-mobile-version-skeleton',
     ],
   },
   {
-    key: "c4",
-    image: "SnapshotPortfolio4.png",
-    name: "Uber Navigation",
-    exp: ["UBER", "Lead Developer", "2018"],
-    technologies: ["Ruby on rails", "CSS", "JavaScript", "html"],
+    key: 'c4',
+    image: 'SnapshotPortfolio4.png',
+    name: 'Uber Navigation',
+    exp: ['UBER', 'Lead Developer', '2018'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    button: "See Project",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    button: 'See Project',
     links: [
-      "https://dadadon.github.io/Setup-and-mobile-version-skeleton/",
-      "https://github.com/Dadadon/Setup-and-mobile-version-skeleton",
+      'https://dadadon.github.io/Setup-and-mobile-version-skeleton/',
+      'https://github.com/Dadadon/Setup-and-mobile-version-skeleton',
     ],
   },
 ];
@@ -72,81 +72,81 @@ const portfolioCards = [
 function popup(position) {
   const el = portfolioCards[position];
 
-  const pop = document.querySelector(".bg-modal");
-  pop.style.display = "block";
+  const pop = document.querySelector('.bg-modal');
+  pop.style.display = 'block';
 
-  const firstCard = document.querySelector(".modal-image");
+  const firstCard = document.querySelector('.modal-image');
   firstCard.src = `${el.image}`;
 
-  const liveb = document.querySelector(".live");
+  const liveb = document.querySelector('.live');
   liveb.href = `${el.links[0]}`;
 
-  const sourceb = document.querySelector(".source");
+  const sourceb = document.querySelector('.source');
   sourceb.href = `${el.links[1]}`;
 
-  document.querySelector(".modal-head").innerText = el.name;
+  document.querySelector('.modal-head').innerText = el.name;
 
-  const btnContiner = document.getElementById("lan");
-  btnContiner.innerHTML = "";
-  const btnContiner2 = document.getElementById("expd");
-  btnContiner2.innerHTML = "";
+  const btnContiner = document.getElementById('lan');
+  btnContiner.innerHTML = '';
+  const btnContiner2 = document.getElementById('expd');
+  btnContiner2.innerHTML = '';
 
-  const paragraph = document.querySelector(".p-modal");
+  const paragraph = document.querySelector('.p-modal');
   paragraph.textContent = `${el.description}`;
 
   el.technologies.forEach((btn) => {
-    const liBtn = document.createElement("li");
-    liBtn.className = "p-css";
+    const liBtn = document.createElement('li');
+    liBtn.className = 'p-css';
     liBtn.innerText = btn;
     btnContiner.appendChild(liBtn);
   });
   el.exp.forEach((btn) => {
-    const liBtn2 = document.createElement("li");
-    liBtn2.className = "canopy";
+    const liBtn2 = document.createElement('li');
+    liBtn2.className = 'canopy';
     liBtn2.innerText = btn;
     btnContiner2.appendChild(liBtn2);
   });
 
-  document.querySelector(".p-modal").innerText = el.description;
+  document.querySelector('.p-modal').innerText = el.description;
 
-  const popupCloseButton = document.querySelector(".close");
-  popupCloseButton.addEventListener("click", () => {
-    const pop = document.querySelector(".bg-modal");
-    pop.style.display = "none";
+  const popupCloseButton = document.querySelector('.close');
+  popupCloseButton.addEventListener('click', () => {
+    const pop = document.querySelector('.bg-modal');
+    pop.style.display = 'none';
   });
 }
 
 portfolioCards.forEach((el, i) => {
-  let languages = "";
+  let languages = '';
   el.technologies.forEach((lang2) => {
-    languages += `<li class="p-css">${lang2}</li>`;
+    languages += `<li class='p-css'>${lang2}</li>`;
   });
 
-  let experience = "";
+  let experience = '';
   el.exp.forEach((lang2) => {
-    experience += `<li class="canopy">${lang2}</li>`;
+    experience += `<li class='canopy'>${lang2}</li>`;
   });
 
-  const template = document.createElement("template");
+  const template = document.createElement('template');
 
-  const btn = document.createElement("button");
-  btn.className = "p-button";
+  const btn = document.createElement('button');
+  btn.className = 'p-button';
   btn.innerText = el.button;
-  btn.addEventListener("click", () => {
+  btn.addEventListener('click', () => {
     popup(i);
   });
 
-  template.innerHTML = `<li class="card1">
-  <div class="p-layout" id="play">
-    <h1 class="portfolio-head">${el.name}</h1>
-    <h1 class="portfolio-head2d">${el.name}</h1>
-    <ul class="frame">${experience}</ul>
-    <p class="p-text">${el.description}</p>
-    <p class="p-textd">${el.description}</p>
-    <ul class="lang">${languages}</ul>
+  template.innerHTML = `<li class='card1'>
+  <div class='p-layout' id='play'>
+    <h1 class='portfolio-head'>${el.name}</h1>
+    <h1 class='portfolio-head2d'>${el.name}</h1>
+    <ul class='frame'>${experience}</ul>
+    <p class='p-text'>${el.description}</p>
+    <p class='p-textd'>${el.description}</p>
+    <ul class='lang'>${languages}</ul>
     </div>
 
-  <img class="portfolio-image" src="${el.image}"></img>
+  <img class='portfolio-image' src='${el.image}'></img>
   
   
   
@@ -154,5 +154,5 @@ portfolioCards.forEach((el, i) => {
 
   const far = template.content.firstChild;
   far.childNodes[1].appendChild(btn);
-  grab("cards").appendChild(far);
+  grab('cards').appendChild(far);
 });
