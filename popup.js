@@ -166,7 +166,24 @@ function lowerCase(val) {
 
 const errorMessage = document.querySelector('.error');
 const form = document.forms['c-form'];
-const mail = form.email;
+const mail = form.emailaddress;
+const messageInput = form.comment;
+const nameInput = form.fullname;
+const formElts = form.querySelectorAll('input, textarea');
+
+const addToLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
+
+formElts.forEach((fe) => {
+  fe.addEventListener('input', () => {
+    errorMessage.style.display = 'none';
+    const objectForLocalStorage = {
+      name: nameInput.value,
+      email: mail.value,
+      message: messageInput.value,
+    };
+    addToLocalStorage('formData', objectForLocalStorage);
+  });
+});
 
 form.addEventListener('submit', (l) => {
   l.preventDefault();
