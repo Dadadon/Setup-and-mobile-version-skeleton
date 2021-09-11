@@ -114,8 +114,6 @@ li:first-child {
   padding: 10px 15px 30px 15px;
   border-radius: 16px;
   margin: 1rem;
-  
- 
 }
 .live {
   margin-left: 0;
@@ -415,7 +413,6 @@ ul {
   left: 0;
   gap: 0.5rem;
 }
-
 
 .canopy {
   height: 16px;
@@ -1296,7 +1293,6 @@ textarea {
   }
 
   .frame {
-
   }
 
   .modal-layout {
